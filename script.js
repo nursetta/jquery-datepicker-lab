@@ -13,8 +13,11 @@ function daysLeft() {
 	// solutions for 9, 10, 11 and 12 go here:
 
 	 var b = today.getTime();
-	 var c = ('a' - 'b');
-	 //var d = _____
+	 	 console.log(b);
+	 var c = 24*60*60*1000;
+	 	console.log(c);
+	 var d = Math.round((a-b)/c);
+	 	console.log(d);
 
 	// we will remove this later:
 	return a;
